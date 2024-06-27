@@ -12,6 +12,7 @@
 <header>
     <h1>My Weather Tracker</h1>
 </header>
+
 <body>
     <div class="flex-row align-start align-stretch-md align-content-start align-content-stretch-md min-100-vh bg-primary">
       <div class="col-12 col-md-3 bg-light p-3">
@@ -20,17 +21,12 @@
           <input id="search-input" class="form-input w-100" type="text" placeholder="Topeka">
           <button class="btn btn-info btn-block" id="searchBtn">Search</button>
         </form>
-      <div class="col-12 col-md-3 bg bg-light p3">
-        <ul id="search-history">
-        </ul>
-    
-      </div>
-      </div>
-  
-      
-        <div id="result-content">
-
+        <div class="col-12 col-md-3 bg bg-light p3">
+          <ul id="search-history">
+          </ul>
         </div>
+      
+        <div id="result-content"></div>
     </div>
 
     <script src="./assets/script.js"></script>
