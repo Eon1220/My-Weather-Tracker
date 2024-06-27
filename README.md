@@ -3,6 +3,9 @@
 ## Description
 An application to track the weather in multipe cities using APIs
 
+## screenshots
+![alt text](<assets/Images/Screenshot 2024-06-27 023516.png>)
+
 ## Links
 https://eon1220.github.io/My-Weather-Tracker/
 
