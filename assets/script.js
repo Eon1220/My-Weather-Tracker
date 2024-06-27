@@ -114,14 +114,14 @@ function renderForecast (forecastData) {
     iconUrl = `${iconUrl}${iconString}`;
     console.log(iconUrl);
     const forecastCard = document.createElement('div');
-    forecastCard.classList.add('future');
+    forecastCard.classList.add('future-cards');
 
     const forecastBody = document.createElement('div');
-    forecastBody.classList.add('card-body');
+    forecastBody.classList.add('today-card');
     forecastCard.append(forecastBody);
 
     const bodyContentEl = document.createElement('div');
-    bodyContentEl.setAttribute('class', 'future');
+    bodyContentEl.setAttribute('class', 'future-cards');
     bodyContentEl.innerHTML +=
         `<strong>${forecastData[i].date}</strong>`;
     bodyContentEl.innerHTML +=
